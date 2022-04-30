@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="description" content="Headphones landing page">
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
     <meta name="author" content="José Valdiviezo">
     <link rel="icon" href="./images/favicon.ico">
     <link rel="stylesheet" href="1-styles.css">
@@ -11,7 +12,16 @@
   <body>
     <header class="header">
       <nav class="header__nav">
-          <img class="nav__logo" src="./images/logo_headphones.png" alt="headphones logo">
+        <input type="checkbox" class="nav__burguer">
+        <svg class="nav__bar" xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-filter-left" viewBox="0 0 16 16">
+          <path d="M2 10.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1h-3a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5z"/>
+        </svg>
+        <svg class="nav__close" xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-x-lg" viewBox="0 0 16 16">
+          <path fill-rule="evenodd" d="M13.854 2.146a.5.5 0 0 1 0 .708l-11 11a.5.5 0 0 1-.708-.708l11-11a.5.5 0 0 1 .708 0Z"/>
+          <path fill-rule="evenodd" d="M2.146 2.146a.5.5 0 0 0 0 .708l11 11a.5.5 0 0 0 .708-.708l-11-11a.5.5 0 0 0-.708 0Z"/>
+        </svg>
+        <img class="nav__logo" src="./images/logo_headphones.png" alt="headphones logo">
+
         <ul class="nav__list">
           <li class="list__item">
             <a href="#">what we do</a>
